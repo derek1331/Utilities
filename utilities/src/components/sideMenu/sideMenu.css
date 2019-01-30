@@ -1,0 +1,15 @@
+.sideMenu{
+    display: none;
+}
+
+.sideMenuOpen{
+    z-index: 99;
+    flex-grow: 1;
+    display: 'flex';
+    width: 100%;
+    /* bottom: 0; */
+    position: fixed !important;
+    /* right: 0; */
+    /* top: 44px; */
+    top: 25px;
+}

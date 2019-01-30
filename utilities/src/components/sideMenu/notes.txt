@@ -1,0 +1,5 @@
+things that took time
+
+setState of button wondering why second click wouldl'nt respond.
+
+Duuuhhhh new SidePanel was covering the button so I couldn't click on it.

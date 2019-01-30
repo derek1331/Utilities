@@ -1,0 +1,5 @@
+you can't get e directly. It'l just bring up a wierd object called Class{
+
+}
+
+instead try e.target :)
