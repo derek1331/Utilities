@@ -1,0 +1,5 @@
+Typerror: Cannot read property 'setState' of Undefined
+
+===
+
+I have to use Arrow Function
