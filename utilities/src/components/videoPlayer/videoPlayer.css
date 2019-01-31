@@ -1,0 +1,9 @@
+.divVideoResults{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.divVideo{
+    border: 3px black solid
+}

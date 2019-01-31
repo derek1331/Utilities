@@ -1,5 +1,6 @@
 import React from 'react';
 import './videoPlayer.css';
+import Modal from '../modal'
 
 class VideoPlayer extends React.Component{
 
@@ -29,6 +30,7 @@ class VideoPlayer extends React.Component{
                 let createbutton = document.createElement('button')
                 let createThumbnail = document.createElement('img')
                 let createBreak = document.createElement('br')
+                createDiv.className = 'divVideo'
                 createSpan.textContent = element.title
                 createThumbnail.setAttribute('src', element.thumbnail_480_url)
                 createThumbnail.setAttribute('video', element.embed_url)
@@ -54,9 +56,14 @@ class VideoPlayer extends React.Component{
         // get value of video delected
         const videoElement = e.target
         const video = videoElement.getAttribute('video')
+        let modal = document.getElementById('modalMain')
+        let modalTitle = document.getElementById('modalTitle')
+        let modalText = document.getElementById('modalText')
+        let modalEdit = document.getElementById('modalEdit')
         this.setState({
             video 
         })
+        modal.style.display = 'initial'
         console.log(this.state.video);
         
     }
@@ -97,6 +104,7 @@ class VideoPlayer extends React.Component{
                 <iframe  frameBorder="0" allowFullScreen allow="autoplay" className='video' id='video' width='320' height='240' src={this.state.video}>
 
                 </iframe>
+                <Modal></Modal>
             </div>
         )
     }

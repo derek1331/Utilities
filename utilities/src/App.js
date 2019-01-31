@@ -6,12 +6,13 @@ import Header from './components/header'
 import ButtonColorChanger from './components/buttonColorChanger'
 import Includes from './components/includes'
 import VideoPlayer from './components/videoPlayer'
+import CardReveal from './components/cardReveal'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <VideoPlayer></VideoPlayer>
+        <CardReveal></CardReveal>
       </div>
     );
   }
