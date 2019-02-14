@@ -7,12 +7,13 @@ import ButtonColorChanger from './components/buttonColorChanger'
 import Includes from './components/includes'
 import VideoPlayer from './components/videoPlayer'
 import CardReveal from './components/cardReveal'
+import MusicPlayer from './components/musicPlayer'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <CardReveal></CardReveal>
+        <MusicPlayer></MusicPlayer>
       </div>
     );
   }
