@@ -8,12 +8,16 @@ import Includes from './components/includes'
 import VideoPlayer from './components/videoPlayer'
 import CardReveal from './components/cardReveal'
 import MusicPlayer from './components/musicPlayer'
+import SalesForce from './components/salesForce'
+import ListReview from './components/listReview'
+import SillyGame from './components/sillyGame'
+import IdeaMaker from './components/ideaMaker'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <MusicPlayer></MusicPlayer>
+        <IdeaMaker></IdeaMaker>
       </div>
     );
   }
